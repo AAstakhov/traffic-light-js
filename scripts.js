@@ -59,6 +59,12 @@ function showLightR(){
 			console.log(trafficLightR)
 			trafficLightR++
 		}
+	}else if(trafficLight3 == 'зеленый'){
+		alert('для этого сигнала еще рано');
+	}else if(trafficLight3 == 'желтый'){
+		alert('для этого сигнала уже поздно')
+	}else{
+		alert('error');
 	}
 }
 showLightR()
